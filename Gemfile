@@ -29,7 +29,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'bcrypt'
 
 gem 'figaro'
-# Use Capistrano for deployment
+gem 'factory_bot_rails'
+gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'# Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
